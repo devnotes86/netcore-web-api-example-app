@@ -22,6 +22,9 @@ namespace HeavyMetalBandsApi.Controllers
             bands.Add(new HeavyMetalBand { Name = "Judas Priest", YearCreated = "1969" });
             bands.Add(new HeavyMetalBand { Name = "Saxon", YearCreated = "1975" });
             bands.Add(new HeavyMetalBand { Name = "DIO", YearCreated = "1982" });
+            //bands.Add(new HeavyMetalBand { Name = "Kat", YearCreated = "1980" });
+            //bands.Add(new HeavyMetalBand { Name = "Gamma Ray", YearCreated = "1982" });
+            //bands.Add(new HeavyMetalBand { Name = "Aria", YearCreated = "1985" });
 
             return bands;
         }
